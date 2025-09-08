@@ -36,7 +36,7 @@ En **DigitechCamp** quisimos que la experiencia del usuario fuera **clara, segur
 - 📅 **Agenda de conferencias y workshops**: el usuario puede ver fácilmente los horarios y temáticas de las ponencias.  
 - 💻 **Interfaz intuitiva y responsive**: todo pensado para que navegar por la feria sea fácil y agradable.  
 
-> 💡 **Tip para desarrolladores:** Para que los correos se envíen a tu propia bandeja, reemplaza las credenciales de `emailHost` por las de tu cuenta de Mailtrap o cualquier otro proveedor SMTP que prefieras.  
+> 💡 **Tip para desarrolladores:** Para que los correos se envíen a tu propia bandeja, reemplaza las credenciales de emailHost por las de tu cuenta de Mailtrap o cualquier otro proveedor SMTP que prefieras.  
 
 ---
 
@@ -70,7 +70,7 @@ En **DigitechCamp** quisimos que la experiencia del usuario fuera **clara, segur
 ---
 
 ## 📸 Capturas de pantalla
-*(Ejemplo de cómo añadir imágenes cuando las subas a `/screenshots` en tu repo)*  
+*(Ejemplo de cómo añadir imágenes cuando las subas a /screenshots en tu repo)*  
 
 - **Página principal**  
   ![Home](./screenshots/home.png)  
@@ -93,27 +93,35 @@ En **DigitechCamp** quisimos que la experiencia del usuario fuera **clara, segur
 Este proyecto utiliza [**Mailtrap**](https://mailtrap.io/) para emular el envío de correos electrónicos en un entorno de desarrollo.  
 
 - Al registrarse un usuario, se envía un correo de confirmación que llega a la bandeja de Mailtrap.  
-- Para habilitar esta función, debes crear una cuenta en Mailtrap y reemplazar las credenciales de `emailHost` en la configuración del proyecto por las tuyas propias.  
+- Para habilitar esta función, debes crear una cuenta en Mailtrap y reemplazar las credenciales de emailHost en la configuración del proyecto por las tuyas propias.  
 
 Ejemplo de configuración (PHP):  
+
 ```php
 $mail->Host = 'sandbox.smtp.mailtrap.io';
 $mail->Username = 'TU_USERNAME';
 $mail->Password = 'TU_PASSWORD';
-    
-## ⚙️ Instalación y ejecución
+⚙️ Instalación y ejecución
+Para instalar y ejecutar DigitechCamp en tu entorno local:
 
-Para instalar y ejecutar **DigitechCamp** en tu entorno local:
+Clonar el repositorio:
 
-1. **Clonar el repositorio:**  
-```bash
+bash
+Copiar código
 git clone https://github.com/DaniArranzOlmos/DigitechCamp.git
-
 Iniciar programa
-En una terminal empezaremos con los siguientes comandos:
-    - npm install
-    - npm run dev
-Abrimos otra terminal y ponemos los siguientes comandos:
-    - composer install
-    - cd public/
-    - php -S localhost:3000
+En una terminal ejecuta:
+
+bash
+Copiar código
+npm install
+npm run dev
+En otra terminal:
+
+bash
+Copiar código
+composer install
+cd public/
+php -S localhost:3000
+arduino
+Copiar código
