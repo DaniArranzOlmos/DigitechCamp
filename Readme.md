@@ -69,26 +69,6 @@ En **DigitechCamp** quisimos que la experiencia del usuario fuera **clara, segur
 
 ---
 
-## 📸 Capturas de pantalla
-*(Ejemplo de cómo añadir imágenes cuando las subas a /screenshots en tu repo)*  
-
-- **Página principal**  
-  ![Home](./screenshots/home.png)  
-
-- **Agenda de conferencias**  
-  ![Agenda](./screenshots/agenda.png)  
-
-- **Compra de entradas**  
-  ![Entradas](./screenshots/entradas.png)  
-
-- **Confirmación de correo en Mailtrap**  
-  ![Correo](./screenshots/mailtrap.png)  
-
-- **Panel de administración**  
-  ![Admin](./screenshots/admin.png)  
-
----
-
 ## 📧 Configuración de Mailtrap
 Este proyecto utiliza [**Mailtrap**](https://mailtrap.io/) para emular el envío de correos electrónicos en un entorno de desarrollo.  
 
